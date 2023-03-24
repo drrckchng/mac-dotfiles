@@ -23,3 +23,9 @@ confirm_os_window_close 0
 # Include Theme
 include theme-gruvbox-dark.conf
 
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Macchiato
+include current-theme.conf
+# END_KITTY_THEME
