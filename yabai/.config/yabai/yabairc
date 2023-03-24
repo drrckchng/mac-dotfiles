@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 #
 # for this to work you must configure sudo such that
 # it will be able to run the command without password
@@ -12,8 +11,8 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
 
 # Tiling
-yabai -m config window_placement second_child # spawns windows right/bottom
 yabai -m config layout bsp
+yabai -m config window_placement second_child # spawns windows right/bottom
 
 # Gaps
 yabai -m config top_padding 12
@@ -27,7 +26,7 @@ yabai -m config mouse_modifier alt # set mouse modifer to ALT
 yabai -m config mouse_action1 move
 yabai -m config mouse_action2 resize
 yabai -m config mouse_drop_action swap
-yabai -m config mouse_follows_focus on
+yabai -m config mouse_follows_focus off
 yabai -m config focus_follows_mouse autoraise 
 
 # Splits
@@ -36,8 +35,8 @@ yabai -m config split_type auto
 
 # Window
 yabai -m config window_zoom_persist on
-yabai -m config window_topmost on
-yabai -m config window_shadow float
+yabai -m config window_topmost off
+yabai -m config window_shadow off
 yabai -m config window_animation_duration 0.0
 yabai -m config window_animation_frame_rate 120
 yabai -m config insert_feedback_color 0xffd75f5f
