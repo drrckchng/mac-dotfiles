@@ -61,6 +61,7 @@ yabai -m config normal_window_opacity 0.90
 
 # Float windows
 yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^System Information$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
