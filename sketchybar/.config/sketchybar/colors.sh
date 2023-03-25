@@ -1,26 +1,31 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 # Color Palette
-export BLACK=0xff181926
-export WHITE=0xffcad3f5
-export RED=0xffed8796
-export GREEN=0xffa6da95
-export BLUE=0xff8aadf4
-export YELLOW=0xffeed49f
-export ORANGE=0xfff5a97f
-export MAGENTA=0xffc6a0f6
-export GREY=0xff939ab7
-export TRANSPARENT=0x00000000
+BLACK=0xff24283b
+WHITE=0xFFC6D0F5
+MAGENTA=0xffbb9af7
+BLUE=0xff7aa2f7
+CYAN=0xff7dcfff
+YELLOW=0xffe0af68
+ORANGE=0xffff9e64
+RED=0xFFE78284
+GREY=0xff939ab7
+ROSEWATER=0xFFF2D5CF
+GREEN=0xFFA6D189
+PEACH=0xFFEF9F76
+MAROON=0xFFEA999C
+TRANSPARENT=0x00000000
 
 # General bar colors
-export BAR_COLOR=0xff1e1e2e
-export BAR_BORDER_COLOR=0xff494d64 #0xa024273a
-export ICON_COLOR=$WHITE # Color of all icons
-export LABEL_COLOR=$WHITE # Color of all labels
-export BACKGROUND_1=0x603c3e4f
-export BACKGROUND_2=0x60494d64
+BAR_COLOR=0xFF303446
+# BAR_COLOR=0x801a1b26
+ICON_COLOR=$WHITE  # Color of all icons
+LABEL_COLOR=$WHITE # Color of all labels
 
-export POPUP_BACKGROUND_COLOR=0xff1e1e2e
-export POPUP_BORDER_COLOR=$WHITE
+POPUP_BACKGROUND_COLOR=$BLACK
+POPUP_BORDER_COLOR=$WHITE
 
-export SHADOW_COLOR=$BLACK
+SHADOW_COLOR=$BLACK
+
+# Item specific special colors
+SPOTIFY_GREEN=$GREEN
