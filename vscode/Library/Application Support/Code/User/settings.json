@@ -1,6 +1,7 @@
 {
-    "workbench.colorTheme": "Catppuccin Frappé",
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'JetBrains Mono'",
-    "editor.minimap.enabled": false
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.minimap.enabled": false,
+  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.lua"
 }
