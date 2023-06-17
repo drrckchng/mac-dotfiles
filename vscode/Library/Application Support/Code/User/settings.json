@@ -578,7 +578,7 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.minimap.enabled": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "window.menuBarVisibility": "toggle",
   "workbench.colorTheme": "Catppuccin Frappé",
   "editor.fontSize": 14,
