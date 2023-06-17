@@ -577,7 +577,7 @@
   "workbench.list.automaticKeyboardNavigation": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "window.menuBarVisibility": "toggle",
   "workbench.colorTheme": "Catppuccin Frappé",
