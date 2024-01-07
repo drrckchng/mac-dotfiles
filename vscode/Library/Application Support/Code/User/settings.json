@@ -577,7 +577,7 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "editor.fontSize": 14,
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.lineNumbers": "relative",
@@ -589,7 +589,7 @@
   "notebook.output.scrolling": true,
   "notebook.output.wordWrap": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.activityBar.visible": false,
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
+  "workbench.activityBar.visible": false,
 }
