@@ -590,4 +590,5 @@
   "notebook.output.wordWrap": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
 }
