@@ -590,8 +590,9 @@
   "notebook.output.wordWrap": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "hidden",
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
+  "window.zoomLevel": -1,
+  "workbench.activityBar.location": "hidden",
 }
