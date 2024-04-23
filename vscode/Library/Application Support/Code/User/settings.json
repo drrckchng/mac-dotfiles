@@ -579,7 +579,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.fontSize": 14,
-  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontFamily": "'CommitMono Nerd Font'",
   "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
