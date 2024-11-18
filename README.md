@@ -1,6 +1,6 @@
 # mac-dotfiles
 
-- Yabai
+- Aerospace
 - Zsh
 - Kitty
 - Sketchybar
