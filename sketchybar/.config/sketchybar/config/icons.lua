@@ -1,3 +1,6 @@
+-- Install symbols using command below:
+-- curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.28/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
+
 local apps <const> = {
   ["Live"] = ":ableton:",
   ["Adobe Bridge 2024"] = ":adobe_bridge:",
