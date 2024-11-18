@@ -171,6 +171,18 @@ if.app-id = 'org.mozilla.firefox'
 run = ['layout tiling', 'move-node-to-workspace 1']
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome'
+run = ['move-node-to-workspace 2']
+
+[[on-window-detected]]
+if.app-id = 'net.kovidgoyal.kitty'
+run = ['move-node-to-workspace 3']
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = ['move-node-to-workspace 4']
+
+[[on-window-detected]]
 if.app-id = 'md.obsidian'
 run = ['layout tiling', 'move-node-to-workspace 5']
 
@@ -183,8 +195,8 @@ if.app-id = 'com.apple.Music'
 run = ['move-node-to-workspace 6']
 
 [[on-window-detected]]
-if.app-id = 'com.google.Chrome'
-run = ['move-node-to-workspace 2']
+if.app-id = 'com.apple.mail'
+run = ['move-node-to-workspace 8']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
