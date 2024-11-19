@@ -17,7 +17,7 @@ exec-on-workspace-change = [
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
 on-focus-changed = [
-  'move-mouse window-lazy-center',
+  #'move-mouse window-lazy-center',
   'exec-and-forget /bin/bash -c /opt/homebrew/bin/sketchybar --trigger front_app_switched',
   'exec-and-forget sketchybar --trigger update_windows',
 ]
@@ -30,7 +30,7 @@ accordion-padding = 30
 default-root-container-layout = 'tiles'
 
 default-root-container-orientation = 'auto'
-
+automatically-unhide-macos-hidden-apps = false
 key-mapping.preset = 'qwerty'
 
 [gaps]
@@ -39,8 +39,8 @@ outer.bottom = [{ monitor.'^built-in retina display$' = 10 }, 10]
 outer.top = [{ monitor.'^built-in retina display$' = 20 }, 52]
 outer.left = 13
 outer.right = 13
-inner.horizontal = 10
-inner.vertical = 10
+inner.horizontal = 5
+inner.vertical = 5
 
 [exec] # Again, you don't need to copy all config sections to your config.
 inherit-env-vars = true # If you don't touch "exec" section,
@@ -59,7 +59,7 @@ cmd-keypadPlus = 'resize smart +70'
 
 cmd-g = 'mode join'
 alt-q = ['close --quit-if-last-window']
-cmd-w = []
+# cmd-w = []
 
 # All possible keys:
 # - Letters.        a, b, c, ..., z
@@ -74,7 +74,7 @@ cmd-w = []
 
 # All possible modifiers: cmd, alt, ctrl, shift
 
-alt-enter = 'exec-and-forget open -n /Volumes/Macintosh\ HD/Applications/Alacritty.app'
+alt-enter = 'exec-and-forget open -n /Volumes/Macintosh\ HD/Applications/kitty.app'
 
 alt-shift-f = 'macos-native-fullscreen'
 alt-f = 'fullscreen'
@@ -146,6 +146,19 @@ esc = [
 r = ['flatten-workspace-tree', 'mode main'] # reset layout
 #s = ['layout sticky tiling', 'mode main'] # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
 
+b = [
+   'exec-and-forget ~/.config/aerospace/presentation.sh on',
+   'exec-and-forget sketchybar --bar height=0',
+   'exec-and-forget sketchybar --trigger hide_message',
+   'mode main'
+]
+shift-b = [
+   'exec-and-forget ~/.config/aerospace/presentation.sh off',
+   'exec-and-forget sketchybar --bar height=36',
+   'exec-and-forget sketchybar --trigger hide_message',
+   'mode main'
+]
+
 backspace = ['close-all-windows-but-current', 'mode main']
 
 [mode.resize.binding]
@@ -193,6 +206,10 @@ run = ['move-node-to-workspace 6']
 [[on-window-detected]]
 if.app-id = 'com.apple.Music'
 run = ['move-node-to-workspace 6']
+
+[[on-window-detected]]
+if.window-title-regex-substring = 'thinkorswim'
+run = ['move-node-to-workspace 7']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
